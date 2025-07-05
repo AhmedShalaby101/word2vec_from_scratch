@@ -122,6 +122,7 @@ python -m streamlit run App.py
 - Add skip-gram option
 - Visualize embeddings with t-SNE or PCA
 - Add evaluation metrics
+- Add schedule learning rate 
 
 ## 🤝 References:
    https://medium.com/data-science/word2vec-with-pytorch-implementing-original-paper-2cd7040120b0

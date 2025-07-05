@@ -17,7 +17,7 @@ WORD2VEC_FROM_SCRATCH/
 ├── data/                                   # Contains all data-related files
 │   ├── external/                          
 │   │   └── .gitkeep                        
-│   ├── interim/                            # 
+│   ├── interim/                            
 │   │   ├── .gitkeep                        
 │   │   ├── id2word                         # Mapping of word IDs to actual words
 │   │   └── word2id                         # Mapping of words to their IDs

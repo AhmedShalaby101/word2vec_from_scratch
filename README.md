@@ -12,30 +12,72 @@ This project implements a Word2Vec model (CBOW architecture) **from scratch usin
 ## 📁 Project Structure
 
 ```
-word2vec_from_scratch/
-├── APP.py                  # Front-end interface to explore embeddings
-├── Train.py                # Script to train the model
-├── word2vec_model.pth      # Saved PyTorch model
-├── requirements.txt        # Python dependencies
-├── README.md               # Project README
-├── app_screen_shots/       # Screenshots for app usage
-├── data/
-│   ├── raw/                # Raw datasets
-│   ├── processed/          # Processed training/validation sets
-│   ├── interim/            # Intermediate mappings (word2id, id2word)
-│   └── external/           # External or third-party data (empty)
-└── docs/                   # Reserved for documentation
+
+WORD2VEC_FROM_SCRATCH/
+├── data/                                   # Contains all data-related files
+│   ├── external/                          
+│   │   └── .gitkeep                        
+│   ├── interim/                            # 
+│   │   ├── .gitkeep                        
+│   │   ├── id2word                         # Mapping of word IDs to actual words
+│   │   └── word2id                         # Mapping of words to their IDs
+│   ├── processed/                        
+│   │   ├── .gitkeep                        
+│   │   ├── train_dataset                   # Processed training dataset
+│   │   └── val_dataset                     # Processed validation dataset
+│   ├── raw/                              
+│   │   ├── .gitkeep                        
+│   │   └── raw_dataset.pkl                 # Raw dataset in pickle format
+│   └── notebooks/                          
+│       ├── .gitkeep                        
+│       └── word2vec_notes.ipynb            # Notebook for Word2Vec experiments
+│
+├── reports/                               
+│   └── figures/                            
+│       ├── .gitkeep                        
+│       ├── 1.png                           # Example visualization 1
+│       ├── 2.png                           # Example visualization 2
+│       ├── 3.png                           # Example visualization 3
+│       ├── 4.png                           # Example visualization 4
+│       └── 5.png                           # Example visualization 5
+│
+├── src/                                    # Source code directory
+│   ├── __init__.py                         
+│   ├── .gitignore                          
+│   ├── APP.py                              # Main application/entry point
+│   ├── README.md                           # Project documentation
+│   ├── data/                               
+│   │   └── make_dataset.py                 # Script for data processing
+│   ├── helpers/
+│   │   └── helpers.py                      # Helper/utility functions
+│   ├── models/                             
+│   │   ├── __init__.py                     # Makes models a Python package
+│   │   ├── .gitkeep                       
+│   │   ├── config.yaml                     # Model configuration file
+│   │   ├── Model.py                        # Main model implementation
+│   │   └── trainer.py                      # Training logic
+│   └── Utils/                             
+│       ├── __init__.py                    
+│       ├── .gitkeep                        
+│       ├── constants.py                    # Project constants
+│       ├── dataloader.py                   # Data loading utilities
+│       └── make_dataset.py                 # Alternative dataset creation script
+│
+├── requirements.txt                        # Python dependencies
+├── Train.py                                # Main training script
+└── word2vec_model.pth                      # Trained Word2Vec model weights
+
 ```
 
 ## 📸 Screenshots
 
-App interface samples (from `app_screen_shots/`):
+App interface samples (from `/reports/figures/`):
 
-![screenshot1]("word2vec_from_scratch/app_screen_shots/1.png")
-![screenshot2](app_screen_shots/2.png)
-![screenshot3](app_screen_shots/3.png)
-![screenshot4](app_screen_shots/4.png)
-![screenshot5](app_screen_shots/5.png)
+![screenshot1](word2vec_from_scratch/reports/figures/1.png)
+![screenshot2](word2vec_from_scratch/reports/figures/2.png)
+![screenshot3](word2vec_from_scratch/reports/figures/3.png)
+![screenshot4](word2vec_from_scratch/reports/figures/4.png)
+![screenshot5](word2vec_from_scratch/reports/figures/5.png)
 
 ## 🔧 Installation
 
@@ -81,8 +123,8 @@ python -m streamlit run App.py
 - Visualize embeddings with t-SNE or PCA
 - Add evaluation metrics
 
-## 🤝 Notes:
-
+## 🤝 References:
+   https://medium.com/data-science/word2vec-with-pytorch-implementing-original-paper-2cd7040120b0
 
 
 ## 📄 License

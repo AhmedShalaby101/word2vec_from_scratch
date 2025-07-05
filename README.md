@@ -1,9 +1,9 @@
 # Word2Vec From Scratch 🧠💬
 
-This project implements a Word2Vec model (skip-gram architecture) **from scratch using PyTorch**. It includes a full training pipeline, dataset preprocessing, and a simple app to visualize word embeddings.
+This project implements a Word2Vec model (CBOW architecture) **from scratch using PyTorch**. It includes a full training pipeline, dataset preprocessing, and a simple app to visualize word embeddings.
 
 ## 🚀 Features
-- Custom implementation of Word2Vec (skip-gram)
+- Custom implementation of Word2Vec (CBOW)
 - PyTorch model training and saving
 - Data preparation pipeline (raw → processed)
 - Embedding visualization interface via `APP.py`
@@ -31,7 +31,7 @@ word2vec_from_scratch/
 
 App interface samples (from `app_screen_shots/`):
 
-![screenshot1](app_screen_shots/1.png)
+![screenshot1]("word2vec_from_scratch/app_screen_shots/1.png")
 ![screenshot2](app_screen_shots/2.png)
 ![screenshot3](app_screen_shots/3.png)
 ![screenshot4](app_screen_shots/4.png)
@@ -46,7 +46,9 @@ pip install -r requirements.txt
 ```
 
 ## 🏁 Running the Project
-
+```bash
+ > ⚠️ you need to edit config file and constant file before running train.py
+```
 ### Train the model
 
 ```bash
@@ -56,16 +58,16 @@ python Train.py
 ### Launch the App (e.g., Streamlit)
 
 ```bash
-streamlit run APP.py
-```
+python -m streamlit run App.py
 
 > ⚠️ You may need to adjust the paths in the scripts depending on your working directory.
+> ⚠️ You may need to adjust the tokenizer function to use a different dataset
 
 ## 📊 Model
 
-- Architecture: Skip-gram Word2Vec
+- Architecture: CBOW Word2Vec
 - Framework: PyTorch
-- Embedding size, window size, negative sampling – configurable in `Train.py`
+- EMBED_DIMENSION, window size(CBOW_N_WORDS),MIN_WORD_FREQUENCY,MAX_SEQUENCE_LENGTH  – configurable in `config.py`
 
 ## 📂 Dataset
 
@@ -75,13 +77,13 @@ streamlit run APP.py
 
 ## ✅ TODOs / Future Improvements
 
-- Add CBOW option
+- Add skip-gram option
 - Visualize embeddings with t-SNE or PCA
 - Add evaluation metrics
 
-## 🤝 Contributing
+## 🤝 Notes:
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
 
 ## 📄 License
 
@@ -89,4 +91,4 @@ MIT License
 
 ---
 
-*Made with ❤️ by [Your Name]*
+*Made with ❤️ by [Ahmed Shalaby]*

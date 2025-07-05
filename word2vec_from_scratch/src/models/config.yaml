@@ -1,0 +1,14 @@
+model_name: CBOW
+
+train_dataset: train_dataset
+val_dataset : val_dataset
+data_dir: /content
+train_batch_size: 40
+val_batch_size: 40
+shuffle: True
+
+optimizer: Adam
+learning_rate: 0.0002
+epochs: 10
+train_steps: 1000
+val_steps: 1000

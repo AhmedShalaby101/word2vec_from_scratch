@@ -69,15 +69,13 @@ WORD2VEC_FROM_SCRATCH/
 
 ```
 
-## 📸 Screenshots
+## [▶️ Watch Demo Video](https://github.com/AhmedShalaby101/word2vec_from_scratch/blob/main/streamlit_app.mp4)
+
+
 
 App interface samples (from `/reports/figures/`):
 
-![screenshot1](word2vec_from_scratch/reports/figures/1.png)
-![screenshot2](word2vec_from_scratch/reports/figures/2.png)
-![screenshot3](word2vec_from_scratch/reports/figures/3.png)
-![screenshot4](word2vec_from_scratch/reports/figures/4.png)
-![screenshot5](word2vec_from_scratch/reports/figures/5.png)
+
 
 ## 🔧 Installation
 

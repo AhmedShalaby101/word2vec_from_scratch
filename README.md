@@ -69,11 +69,11 @@ WORD2VEC_FROM_SCRATCH/
 
 ```
 
-## [▶️ Watch Demo Video](https://github.com/AhmedShalaby101/word2vec_from_scratch/blob/main/streamlit_app.mp4)
 
 
 
-App interface samples (from `/reports/figures/`):
+App interface samples:
+## [▶️ Watch Demo Video](https://github.com/AhmedShalaby101/word2vec_from_scratch/streamlit_app.mp4)
 
 
 

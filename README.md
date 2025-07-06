@@ -73,7 +73,7 @@ WORD2VEC_FROM_SCRATCH/
 
 
 App interface samples:
-## https://github.com/AhmedShalaby101/word2vec_from_scratch/raw/main/streamlit_app.mp4
+## <!-- Uploading "streamlit_app.mp4"... -->
 
 
 

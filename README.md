@@ -73,7 +73,8 @@ WORD2VEC_FROM_SCRATCH/
 
 
 App interface samples:
-## [▶️ Watch Demo Video](https://github.com/AhmedShalaby101/word2vec_from_scratch/streamlit_app.mp4)
+## https://github.com/AhmedShalaby101/word2vec_from_scratch/raw/main/streamlit_app.mp4
+
 
 
 

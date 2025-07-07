@@ -74,10 +74,7 @@ WORD2VEC_FROM_SCRATCH/
 
 App interface samples:
 ## [▶️ Watch Demo Video]
-[[https://github.com/
-](https://github.com/user-attachments/assets/15b09d29-0a72-4c6d-b3de-63e09cbf5dbc)](https://github.com/user-attachments/assets/15b09d29-0a72-4c6d-b3de-63e09cbf5dbc)
-
-
+https://github.com/user-attachments/assets/15b09d29-0a72-4c6d-b3de-63e09cbf5dbc
 
 ## 🔧 Installation
 
